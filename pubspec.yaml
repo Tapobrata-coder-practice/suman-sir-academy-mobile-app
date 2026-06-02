@@ -1,0 +1,117 @@
+name: suman_sir_academy
+description: Suman Sir English Academy - Premium English Tutoring Platform
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.1.0
+  firebase_auth: ^5.1.0
+  cloud_firestore: ^5.1.0
+  firebase_storage: ^12.1.0
+  firebase_messaging: ^15.0.2
+  firebase_analytics: ^11.1.0
+
+  # State Management
+  get: ^4.6.6
+  provider: ^6.1.2
+
+  # UI
+  flutter_screenutil: ^5.9.0
+  google_fonts: ^6.2.1
+  lottie: ^3.1.0
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  shimmer: ^3.0.0
+  smooth_page_indicator: ^1.1.0
+  carousel_slider: ^5.0.0
+  flutter_staggered_animations: ^1.1.1
+  animated_text_kit: ^4.2.2
+  percent_indicator: ^4.2.3
+  badges: ^3.1.2
+  fl_chart: ^0.68.0
+
+  # Video Player
+  youtube_player_flutter: ^9.1.1
+  video_player: ^2.8.6
+  chewie: ^1.8.2
+  flutter_vlc_player: ^7.4.1
+
+  # Media / Files
+  file_picker: ^8.0.6
+  image_picker: ^1.1.2
+  image_cropper: ^8.0.1
+  path_provider: ^2.1.3
+  open_file: ^3.3.2
+  permission_handler: ^11.3.1
+  dio: ^5.4.3+1
+  flutter_downloader: ^1.11.7
+
+  # PDF
+  syncfusion_flutter_pdfviewer: ^26.1.35
+  printing: ^5.13.1
+  pdf: ^3.11.0
+
+  # Payment
+  razorpay_flutter: ^1.3.6
+
+  # YouTube API
+  youtube_explode_dart: ^2.2.1
+
+  # Notifications
+  flutter_local_notifications: ^17.2.2
+
+  # Utilities
+  intl: ^0.19.0
+  shared_preferences: ^2.2.3
+  connectivity_plus: ^6.0.3
+  url_launcher: ^6.3.0
+  share_plus: ^9.0.0
+  package_info_plus: ^8.0.2
+  qr_flutter: ^4.1.0
+  screenshot: ^2.3.0
+  encrypt: ^5.0.3
+  uuid: ^4.4.0
+  timeago: ^3.6.1
+  shimmer_animation: ^2.2.1
+  flutter_bounce: ^2.0.0
+  pinput: ^4.0.0
+  country_code_picker: ^3.0.0
+  otp_text_field: ^1.1.3
+  confetti: ^0.7.0
+  audioplayers: ^6.0.0
+  wakelock_plus: ^1.2.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
